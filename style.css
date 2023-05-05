@@ -359,7 +359,39 @@ a{
 }
 
 
+.review .box-container .box img{
+    height: 20rem;
+    -o-object-fit: contain ;
+       object-fit: contain ;
+}
+.review .box-container .box p{
+    font-size: 1.5rem;
+    line-height: 1.8;
+    padding: 2rem 0;
+}
 
+.review .box-container .box .user{
+    height: 7rem;
+    width: 7rem;
+    display: block;
+    margin: auto;
+    
+    -o-object-fit: contain;
+    
+       object-fit: contain;
+    border-radius: 50% 50% 49% 51% / 62% 32% 68% 38% ;
+}
+
+.review .box-container .box .h3{
+    padding: 1rem 0;
+    font-size: 2rem;
+    color: var(--main-color);
+}
+
+.review .box-container .box .stars{
+    font-size: 1.5rem;
+    color: gold;
+}
 
 
 
@@ -429,7 +461,45 @@ a{
 
 
 
+.blog .box-container .box-full{
+    background-color: #fff;
+    border-radius: 3rem;
+}
 
+.blog .box-container .box-full .image{
+    height: 25rem;
+    overflow: hidden;
+    width: 100%;
+    border-top-left-radius: 3rem;
+    border-top-right-radius: 3rem;
+}
+
+.blog .box-container .box-full:hover .image img{
+    -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+            transform: scale(1.2);
+}
+
+.blog .box-container .box-full .content{
+    padding: 2rem;
+}
+
+.blog .box-container .box-full .content .title{
+    line-height: 1.5;
+    font-size: 2.5rem;
+}
+.blog .box-container .box-full .content span{
+    display: block;
+    padding-top: 1rem;
+    font-size: 1rem;
+}
+
+.blog .box-container .box-full .content p{
+    font-size: 1.6rem;
+    line-height: 1.8;
+    color: #ccc;
+    padding: 1rem 0;
+}
 
 
 .footer {
